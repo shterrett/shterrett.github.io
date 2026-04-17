@@ -97,8 +97,14 @@ workCtx =
         (traverse makeItem . workMovements . itemBody)
 
 programCtx :: Context String
-programCtx = worksListCtx <> defaultContext
+programCtx = overviewCtx <> worksListCtx <> defaultContext
   where
+    overviewCtx = field "overview" $ \item -> do
+        mMd <- getMetadataField (itemIdentifier item) "overview"
+        case mMd of
+            Nothing -> return ""
+            Just md -> fmap itemBody . renderPandoc =<< makeItem md
+
     worksListCtx = listFieldWith "works" workCtx extractWorks
 
     extractWorks item = do

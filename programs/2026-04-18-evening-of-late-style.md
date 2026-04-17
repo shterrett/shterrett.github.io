@@ -7,8 +7,18 @@ date: "Saturday, April 18, 2026 · 7:30 pm"
 presenter: "The Monteverdi Society"
 overview-title: "On the program"
 overview: |
-  <p>Tonight's recital gathers three works that stand at turning points in their composers' lives. Each is a piece of late style, not necessarily of late chronology: music written at the hinge between what a composer had already mastered and what lay just out of reach. Beethoven's Sonata in E major, Op. 109, and Schumann's Kreisleriana are separated by only twenty years, but the distance between their interior landscapes is enormous. Debussy's Estampes, published in 1903, closes the program by dissolving the Germanic tradition the first two works so forcefully define.</p>
-  <p>Heard in sequence, the three works sketch an arc from revelation to obsession to evaporation. Beethoven contemplates; Schumann fractures; Debussy disperses. The recital ends not with a cadence but with a view.</p>
+  Tonight's recital gathers three works that stand at turning points in their
+  composers' lives. Each is a piece of late style, not necessarily of late
+  chronology: music written at the hinge between what a composer had already
+  mastered and what lay just out of reach. Beethoven's Sonata in E major,
+  Op. 109, and Schumann's Kreisleriana are separated by only twenty years, but
+  the distance between their interior landscapes is enormous. Debussy's
+  Estampes, published in 1903, closes the program by dissolving the Germanic
+  tradition the first two works so forcefully define.
+
+  Heard in sequence, the three works sketch an arc from revelation to obsession
+  to evaporation. Beethoven contemplates; Schumann fractures; Debussy disperses.
+  The recital ends not with a cadence but with a view.
 works:
   - composer: Ludwig van Beethoven
     title: Sonata in E major, Op. 109
