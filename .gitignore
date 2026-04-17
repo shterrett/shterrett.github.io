@@ -3,3 +3,4 @@ _cache/
 .hakyll-metadata
 dist-newstyle/
 .stack-work
+logs/
