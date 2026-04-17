@@ -2,20 +2,13 @@
 title: Program Notes
 ---
 
-<h2>Programs</h2>
-<ul>
+<ul class="program-index">
   $for(programs)$
-    <li>
-      <a href="$url$">$title$</a> — $date$
-    </li>
-  $endfor$
-</ul>
-
-<h2>Recent Posts</h2>
-<ul>
-  $for(posts)$
-    <li>
-      <a href="$url$">$title$</a> — $date$
+    <li class="program-index-item">
+      <a href="$url$">
+        <span class="program-index-title">$title$</span>
+        <span class="program-index-date">$date$</span>
+      </a>
     </li>
   $endfor$
 </ul>
