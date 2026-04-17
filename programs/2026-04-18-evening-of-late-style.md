@@ -5,6 +5,7 @@ performer: "Clara Weiss, piano"
 venue: "Hartley Recital Hall"
 date: "Saturday, April 18, 2026 · 7:30 pm"
 presenter: "The Monteverdi Society"
+author: "The Monteverdi Society"
 overview-title: "On the program"
 overview: |
   Tonight's recital gathers three works that stand at turning points in their
@@ -108,6 +109,3 @@ The first piece, *Pagodes*, grew out of the gamelan ensembles Debussy had heard 
 
 *Jardins sous la pluie* closes the set with a rush of sixteenth-notes depicting rain on a garden. Two French folk songs --- 'Do, do, l'enfant do' and 'Nous n'irons plus au bois' --- appear briefly, half-quoted, as though a child were humming them at the window while the storm passed. The piece ends with a brilliant cadence in E major, but the effect is not triumphal. It is the sun breaking through, briefly, onto a garden that has already moved on.
 
-<div class="program-colophon">
-<p>Program notes by<br>The Monteverdi Society<br><br>Please silence your devices<br>before the performance</p>
-</div>
