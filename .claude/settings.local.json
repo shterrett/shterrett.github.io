@@ -3,7 +3,17 @@
     "allow": [
       "Bash(stack --version)",
       "Bash(cabal --version)",
-      "Bash(cabal build:*)"
+      "Bash(cabal build:*)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(ls:*)",
+      "Bash(gunzip -c /Users/stuart/.claude/projects/-Users-stuart-program-notes/f6a7172c-4aca-4a4e-a06d-b09d3d782021/tool-results/webfetch-1776449687546-d9qfs2.bin)",
+      "Bash(tar -x -O --wildcards */content.js)",
+      "Bash(tar -t)",
+      "Bash(tar -xO program-notes/project/content.js)",
+      "Bash(tar -xO program-notes/project/components.jsx)",
+      "Bash(tar -xO program-notes/project/nav-patterns.jsx)",
+      "Bash(stack build:*)",
+      "Bash(stack run:*)"
     ]
   }
 }

@@ -26,6 +26,12 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
+    match "programs/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/program.html" defaultContext
+            >>= relativizeUrls
+
     create ["archive.html"] $ do
         route idRoute
         compile $ do
@@ -43,9 +49,11 @@ main = hakyll $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
+            posts    <- recentFirst =<< loadAll "posts/*"
+            programs <- recentFirst =<< loadAll "programs/*"
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
+                    listField "posts"    postCtx (return posts)    `mappend`
+                    listField "programs" postCtx (return programs) `mappend`
                     defaultContext
 
             getResourceBody
