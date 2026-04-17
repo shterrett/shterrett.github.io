@@ -27,6 +27,12 @@
   }
 }
 
+@media (min-width: 641px) {
+  body {
+    background: var(--paper-deep);
+  }
+}
+
 /* ── Page reset for program pages ──────────────────────────── */
 .program-page {
   background: var(--paper);
@@ -190,7 +196,7 @@
 
 /* ── Piece notes ───────────────────────────────────────────── */
 .program-pieces {
-  /* container */
+  padding: 48px 28px 0;
 }
 
 .program-pieces article,
