@@ -9,33 +9,30 @@ overview-title: "On the program"
 overview: |
   <p>Tonight's recital gathers three works that stand at turning points in their composers' lives. Each is a piece of late style, not necessarily of late chronology: music written at the hinge between what a composer had already mastered and what lay just out of reach. Beethoven's Sonata in E major, Op. 109, and Schumann's Kreisleriana are separated by only twenty years, but the distance between their interior landscapes is enormous. Debussy's Estampes, published in 1903, closes the program by dissolving the Germanic tradition the first two works so forcefully define.</p>
   <p>Heard in sequence, the three works sketch an arc from revelation to obsession to evaporation. Beethoven contemplates; Schumann fractures; Debussy disperses. The recital ends not with a cadence but with a view.</p>
-works: |
-  <ol class="works-list">
-    <li class="work-item">
-      <div class="work-item-header">
-        <span class="work-number">01</span>
-        <span class="work-composer">Ludwig van Beethoven</span>
-      </div>
-      <h3 class="work-title">Sonata in E major, Op. 109</h3>
-      <p class="work-movements">I. Vivace, ma non troppo — Adagio espressivo · II. Prestissimo · III. Gesangvoll, mit innigster Empfindung</p>
-    </li>
-    <li class="work-item">
-      <div class="work-item-header">
-        <span class="work-number">02</span>
-        <span class="work-composer">Robert Schumann</span>
-      </div>
-      <h3 class="work-title">Kreisleriana, Op. 16</h3>
-      <p class="work-movements">I. Äußerst bewegt · II. Sehr innig und nicht zu rasch · III. Sehr aufgeregt · IV. Sehr langsam · V. Sehr lebhaft · VI. Sehr langsam · VII. Sehr rasch · VIII. Schnell und spielend</p>
-    </li>
-    <li class="work-item">
-      <div class="work-item-header">
-        <span class="work-number">03</span>
-        <span class="work-composer">Claude Debussy</span>
-      </div>
-      <h3 class="work-title">Estampes</h3>
-      <p class="work-movements">I. Pagodes · II. La soirée dans Grenade · III. Jardins sous la pluie</p>
-    </li>
-  </ol>
+works:
+  - composer: Ludwig van Beethoven
+    title: Sonata in E major, Op. 109
+    movements:
+      - "I. Vivace, ma non troppo — Adagio espressivo"
+      - "II. Prestissimo"
+      - "III. Gesangvoll, mit innigster Empfindung"
+  - composer: Robert Schumann
+    title: "Kreisleriana, Op. 16"
+    movements:
+      - "I. Äußerst bewegt"
+      - "II. Sehr innig und nicht zu rasch"
+      - "III. Sehr aufgeregt"
+      - "IV. Sehr langsam"
+      - "V. Sehr lebhaft"
+      - "VI. Sehr langsam"
+      - "VII. Sehr rasch"
+      - "VIII. Schnell und spielend"
+  - composer: Claude Debussy
+    title: Estampes
+    movements:
+      - "I. Pagodes"
+      - "II. La soirée dans Grenade"
+      - "III. Jardins sous la pluie"
 ---
 
 ### Ludwig van Beethoven (1770--1827)

@@ -1,4 +1,15 @@
 <section class="program-list">
   <div class="section-label">The Program</div>
-  $works$
+  <ol class="works-list">
+    $for(works)$
+    <li class="work-item">
+      <div class="work-item-header">
+        <span class="work-number">$number$</span>
+        <span class="work-composer">$composer$</span>
+      </div>
+      <h3 class="work-title">$title$</h3>
+      <p class="work-movements">$for(movements)$$movement$$sep$ · $endfor$</p>
+    </li>
+    $endfor$
+  </ol>
 </section>

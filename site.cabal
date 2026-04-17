@@ -6,6 +6,9 @@ synopsis:           Personal notes site built with Hakyll
 executable site
     main-is:          site.hs
     build-depends:    base >= 4.20,
-                      hakyll
+                      hakyll,
+                      aeson,
+                      text,
+                      vector
     ghc-options:      -threaded
     default-language: Haskell2010
