@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(stack --version)",
+      "Bash(cabal --version)",
+      "Bash(cabal build:*)"
+    ]
+  }
+}
