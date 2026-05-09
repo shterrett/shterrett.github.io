@@ -8,8 +8,13 @@ import qualified Data.Vector     as V
 import qualified Data.Text       as T
 import           Hakyll
 
+config :: Configuration
+config = defaultConfiguration
+  { destinationDirectory = "docs"
+  }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
