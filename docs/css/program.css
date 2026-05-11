@@ -27,10 +27,8 @@
   }
 }
 
-@media (min-width: 641px) {
-  body {
-    background: var(--paper-deep);
-  }
+body {
+  background: var(--paper-deep);
 }
 
 /* ── Page reset for program pages ──────────────────────────── */
